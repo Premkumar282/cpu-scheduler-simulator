@@ -51,8 +51,8 @@ export const Footer = () => {
         <div className="mt-8 pt-8 border-t border-border/30 text-center">
           <p className="text-sm text-muted-foreground">
             © 2024 Intelligent CPU Scheduler Simulator. Built with{" "}
-            <span className="text-primary">Python</span> and{" "}
-            <span className="text-secondary">AI</span>.
+            <span className="text-primary">React + TypeScript + Vite</span> and{" "}
+            <span className="text-secondary">AI Assistance</span>.
           </p>
         </div>
       </div>
