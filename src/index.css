@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Cyberpunk/Futuristic Color System */
+    --background: 240 25% 5%;
+    --foreground: 200 100% 95%;
+
+    --card: 240 20% 8%;
+    --card-foreground: 200 100% 95%;
+
+    --popover: 240 22% 10%;
+    --popover-foreground: 200 100% 95%;
+
+    --primary: 190 100% 50%;
+    --primary-foreground: 240 25% 5%;
+    --primary-glow: 190 100% 60%;
+
+    --secondary: 280 80% 60%;
+    --secondary-foreground: 200 100% 95%;
+    --secondary-glow: 280 80% 70%;
+
+    --accent: 165 100% 50%;
+    --accent-foreground: 240 25% 5%;
+    --accent-glow: 165 100% 60%;
+
+    --muted: 240 15% 15%;
+    --muted-foreground: 200 20% 65%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 200 100% 95%;
+
+    --border: 240 20% 20%;
+    --input: 240 20% 15%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Neon Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--secondary)));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--primary)));
+    --gradient-glow: linear-gradient(135deg, hsl(var(--primary-glow) / 0.3), hsl(var(--secondary-glow) / 0.3));
+
+    /* Shadows & Glows */
+    --shadow-neon-primary: 0 0 30px hsl(var(--primary) / 0.5);
+    --shadow-neon-secondary: 0 0 30px hsl(var(--secondary) / 0.5);
+    --shadow-neon-accent: 0 0 30px hsl(var(--accent) / 0.5);
+    --shadow-card: 0 10px 40px hsl(var(--primary) / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
