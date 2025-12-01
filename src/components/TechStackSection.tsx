@@ -2,37 +2,56 @@ import { Code2, PieChart, Table, Github } from "lucide-react";
 
 export const TechStackSection = () => {
   const technologies = [
-    {
-      icon: Code2,
-      name: "Python",
-      description: "Core implementation language",
-      color: "from-blue-400 to-blue-600"
-    },
-    {
-      icon: Code2,
-      name: "Tkinter",
-      description: "GUI framework",
-      color: "from-green-400 to-green-600"
-    },
-    {
-      icon: PieChart,
-      name: "Matplotlib",
-      description: "Data visualization",
-      color: "from-orange-400 to-orange-600"
-    },
-    {
-      icon: Table,
-      name: "Pandas",
-      description: "Data manipulation",
-      color: "from-purple-400 to-purple-600"
-    },
-    {
-      icon: Github,
-      name: "GitHub",
-      description: "Version control",
-      color: "from-gray-400 to-gray-600"
-    }
-  ];
+  {
+    icon: Code2,
+    name: "React",
+    description: "Frontend UI library",
+    color: "from-blue-400 to-blue-600",
+  },
+  {
+    icon: Code2,
+    name: "TypeScript",
+    description: "Typed JavaScript for reliability",
+    color: "from-blue-500 to-indigo-600",
+  },
+  {
+    icon: Code2,
+    name: "Vite",
+    description: "Fast dev server & build tool",
+    color: "from-purple-400 to-purple-600",
+  },
+  {
+    icon: Code2,
+    name: "Tailwind CSS",
+    description: "Utility-first styling framework",
+    color: "from-cyan-400 to-cyan-600",
+  },
+  {
+    icon: Code2,
+    name: "shadcn/ui",
+    description: "Modern component framework",
+    color: "from-pink-400 to-pink-600",
+  },
+  {
+    icon: Code2,
+    name: "Lucide Icons",
+    description: "Icon library used across UI",
+    color: "from-orange-400 to-orange-600",
+  },
+  {
+    icon: Code2,
+    name: "Node.js + npm",
+    description: "Package manager & runtime",
+    color: "from-green-400 to-green-600",
+  },
+  {
+    icon: Github,
+    name: "GitHub",
+    description: "Version control & hosting",
+    color: "from-gray-400 to-gray-600",
+  },
+];
+
 
   return (
     <section className="py-24 px-4 relative overflow-hidden">
