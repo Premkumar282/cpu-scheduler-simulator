@@ -21,7 +21,7 @@ export const GitHubSection = () => {
       </div>
 
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16 animate-fade-in">
+        {/* <div className="text-center mb-16 animate-fade-in">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6">
             <GitBranch className="h-4 w-4 text-primary" />
             <span className="text-sm font-mono text-primary">7 Major Revisions</span>
@@ -36,7 +36,7 @@ export const GitHubSection = () => {
           <p className="text-xl text-muted-foreground">
             Track our development journey through GitHub commits
           </p>
-        </div>
+        </div> */}
 
         <div className="relative">
           {/* Timeline line */}
