@@ -2,15 +2,15 @@ import { Card } from "@/components/ui/card";
 import { GitBranch, GitCommit, GitMerge } from "lucide-react";
 
 export const GitHubSection = () => {
-  const revisions = [
-    // { id: 1, title: "Initial Setup", desc: "Project structure and basic UI", commits: 12 },
+  const revisions = [// { id: 1, title: "Initial Setup", desc: "Project structure and basic UI", commits: 12 },
     // { id: 2, title: "FCFS Algorithm", desc: "First scheduling implementation", commits: 8 },
     // { id: 3, title: "SJF & Priority", desc: "Added more algorithms", commits: 15 },
     // { id: 4, title: "Round Robin", desc: "Time quantum scheduling", commits: 10 },
     // { id: 5, title: "Gantt Charts", desc: "Visual representation", commits: 20 },
     // { id: 6, title: "AI Advisor", desc: "Intelligent recommendations", commits: 18 },
     // { id: 7, title: "Final Polish", desc: "UI improvements & testing", commits: 25 }
-  ];
+    ];
+  
 
   return (
     <section className="py-24 px-4 relative overflow-hidden">
