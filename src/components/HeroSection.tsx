@@ -81,6 +81,7 @@ export const HeroSection = () => {
               size="lg" 
               variant="outline"
               className="group border-2 border-primary text-primary hover:bg-primary/10 hover:shadow-[0_0_30px_hsl(var(--primary)/0.4)] transition-all duration-300 text-lg px-8 py-6"
+              onClick={() => window.open("https://github.com/Premkumar282/cpu-scheduler-simulator", "_blank")}
             >
               <Github className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
               View Code
