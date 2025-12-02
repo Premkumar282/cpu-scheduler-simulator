@@ -5,7 +5,7 @@ Built with **React + TypeScript + Vite**, styled using **Tailwind CSS** and **sh
 ---
 
 ## 🔗 Live Demo  
-👉 **View Live Project:** https://your-vercel-link-here  
+👉 **View Live Project:** https://cpu-scheduler-simulator-iota.vercel.app/  
 
 
 ---
@@ -45,6 +45,20 @@ It helps users understand real OS scheduling behavior through a clean, interacti
 
 ---
 
+
+## 🚀 Installation & Run Locally  
+
+### 1️⃣ Install Node.js (LTS)  
+Download from: https://nodejs.org/
+
+### 2️⃣ Install dependencies  
+```bash
+npm install
+
+
+---
+
+
 ## 📁 Folder Structure  
 
 project-root/
@@ -77,16 +91,6 @@ project-root/
 
 
 ---
-
-## 🚀 Installation & Run Locally  
-
-### 1️⃣ Install Node.js (LTS)  
-Download from: https://nodejs.org/
-
-### 2️⃣ Install dependencies  
-```bash
-npm install
-
 
 ## 👨‍💻 Author  
 Prem Kumar  
